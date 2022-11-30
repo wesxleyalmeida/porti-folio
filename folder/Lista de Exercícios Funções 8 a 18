@@ -28,7 +28,7 @@
 
 		leia(cateto1)
 
-		escreva("e qual o do segundo")
+		escreva("qual o valor do segundo")
 
 		leia(cateto2)
 
@@ -185,7 +185,7 @@ funcao triangulo(real a, real b, real c){
 
 
 
-	  escreva(valor," ao contrario é igual ",(unidade * 100 + dezena * 10 + centena))
+	  escreva(valor," ao contrario é igual a  ",(unidade * 100 + dezena * 10 + centena))
 
 	  
 
@@ -222,7 +222,7 @@ programa
 	{
 		
 
-		escreva ("Quantas vezes vc deseja lançar a moeda? ", "\n")
+		escreva ("Quantas vezes voce deseja lançar a moeda? ", "\n")
 		leia (lancamentos)
 
           inteiro divisao = lancamentos
@@ -230,7 +230,7 @@ programa
 		limpa()
 
 		se(divisao <=0){
-		   escreva ("Ai não da né cara, digite um numero valido, de preferencia maior que 0 ", "\n")	
+		   escreva ("eita, digite um numero valido por favor, de preferencia maior que 0 ", "\n")	
 			
 		}
 		
@@ -327,9 +327,9 @@ programa
 		inteiro lista[5] = {1,2,3,4,5}
           inteiro media = (lista[0] + lista[1] + lista[2] + lista[3] + lista[4])/5 
 		
-		escreva ("A soma dos numeros da é ",lista[0] + lista[1] + lista[2] + lista[3] + lista[4],"\n" )
+		escreva ("A soma dos numeros da lista é ",lista[0] + lista[1] + lista[2] + lista[3] + lista[4],"\n" )
 
-		escreva("A media da soma dos numeros é ", media,"\n" )
+		escreva("A media da soma dos numeros é igual a  ", media,"\n" )
 		
 	}
 }
